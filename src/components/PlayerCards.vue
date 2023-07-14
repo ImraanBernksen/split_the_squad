@@ -398,7 +398,7 @@
               <img  class="playerimg" src="https://i.postimg.cc/ryjmXNCf/My-project-1-4-1.png" style="" height="230px"/>
             </span>
             <span class="TeamLogo">
-              <p class="rating">89</p>
+              <p class="rating">69</p>
               <p class="position">ST</p>
               <p class="flag">
                 <img src="https://i.postimg.cc/QdH2XwHx/27118.jpg" height="28px" width="50px" />
