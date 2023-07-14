@@ -1,96 +1,67 @@
 <template>
-  <div>
-    <main>
-      <section id="about">
-        <div class="home">
-          <div
-            class="home container d-flex align-items-center justify-content-center"
-          >
-            <div class="row">
-              <div
-                class="col landing-text text-dark m-auto text-center"
-                style="padding-top: 5rem; "
-              >
-           
-                <div>
-                  <h2 class="text-center" id="random-title">
-                    SQUAD RANDOMIZER
-                  </h2>
-                  <div class="container d-flex justify-content-center p-3">
-                    <div class="row">
-                      <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                        <input
-                          type="text"
-                          v-model="playerName"
-                          placeholder="Enter Player Name"
-                        />
-                      </div>
-                      <br />
-                      <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-none">
-                        <input
-                          type="text"
-                          v-model="playerImage"
-                          placeholder="Enter player image URL"
-                        />
-                      </div>
+  <main>
+    <section id="about">
+      <div class="home">
+        <div class="home container d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="col landing-text text-dark m-auto text-center" style="padding-top: 5rem; ">
+              <div>
+                <h2 class="text-center text-white" id="random-title">
+                  SQUAD RANDOMIZER
+                </h2>
+                <div class="container d-flex justify-content-center p-3">
+                  <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                      <input type="text" v-model="playerName" placeholder="Enter Player Name" />
+                    </div>
+                    <br />
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-none">
+                      <input type="text" v-model="playerImage" placeholder="Enter player image URL" />
                     </div>
                   </div>
-
-                  <div class="container d-flex justify-content-center">
-                    <ul class="btns">
-                      <li>
-                        <button class="btn btn-dark p-3" @click="addPlayer">
-                          Add Player <i class="fa-solid fa-circle-plus"></i>
-                        </button>
-                      </li>
-                      <li>
-                        <button
-                          class="btn btn-dark p-3"
-                          @click="randomizeTeams"
-                        >
-                          Randomize Teams <i class="fa-solid fa-infinity"></i>
-                        </button>
-                      </li>
-                      <li>
-                        <button class="btn btn-dark p-3" @click="clearPlayers">
-                          Clear Players <i class="fa-solid fa-trash"></i>
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <h3 class="text-center mt-1">Players Available:</h3>
-
-                  <ol id="playersList">
-                    <li v-for="player in players" :key="player.name">
-                      {{ player.name }}
+                </div>
+                <div class="container d-flex justify-content-center">
+                  <ul class="btns">
+                    <li>
+                      <button class="btn btn-dark p-3" @click="addPlayer">
+                        Add Player <i class="fa-solid fa-circle-plus"></i>
+                      </button>
                     </li>
-                  </ol>
-
-                  <div class="container">
-                    <div class="row text-center teams">
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 border">
-                        <h3 class="p-2 border-bottom">TEAM 1:</h3>
-                        <ol class="text-center" id="team1">
-                          <li
-                            v-for="(player, index) in teams.team1"
-                            :key="index"
-                          >
-                            {{ player.name }}
-                          </li>
-                        </ol>
-                      </div>
-                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 border">
-                        <h3 class="p-2 border-bottom">TEAM 2:</h3>
-                        <ol class="text-center" id="team2">
-                          <li
-                            v-for="(player, index) in teams.team2"
-                            :key="index"
-                          >
-                            {{ player.name }}
-                          </li>
-                        </ol>
-                      </div>
+                    <li>
+                      <button class="btn btn-dark p-3" @click="randomizeTeams">
+                        Randomize Teams <i class="fa-solid fa-infinity"></i>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="btn btn-dark p-3" @click="clearPlayers">
+                        Clear Players <i class="fa-solid fa-trash"></i>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="text-center mt-1">Players Available:</h3>
+                <ol id="playersList">
+                  <li v-for="player in players" :key="player.name">
+                    {{ player.name }}
+                  </li>
+                </ol>
+                <div class="container">
+                  <div class="row text-center teams">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 border">
+                      <h3 class="p-2 border-bottom">TEAM 1:</h3>
+                      <ol class="text-center" id="team1">
+                        <li v-for="(player, index) in teams.team1" :key="index">
+                          {{ player.name }}
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 border">
+                      <h3 class="p-2 border-bottom">TEAM 2:</h3>
+                      <ol class="text-center" id="team2">
+                        <li v-for="(player, index) in teams.team2" :key="index">
+                          {{ player.name }}
+                        </li>
+                      </ol>
                     </div>
                   </div>
                 </div>
@@ -98,9 +69,9 @@
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </div>
+      </div>
+    </section>
+  </main>
 </template>
 
 <script>
@@ -172,19 +143,13 @@ export default {
 <style scoped>
 main {
   min-height: 100vh;
-  background:
-    url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)),url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: auto;
 }
-/*
-#random-title {
-  background-color: white;
-  border: 2px solid black;
-}
-*/
+
 .btn {
   padding: 1rem;
   border-radius: 2px;
@@ -215,8 +180,8 @@ input[type="text"] {
   font-weight: 900;
 }
 
-.home{
- margin-left: 4rem
+.home {
+  margin-left: 4rem
 }
 
 @media screen and (max-width: 550px) {
@@ -224,7 +189,7 @@ input[type="text"] {
     display: block;
     margin: auto;
     text-align: center;
-  
+
   }
 
   .row {

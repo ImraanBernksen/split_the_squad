@@ -1,7 +1,7 @@
 <template>
   <div>
+    <main>
     <NavbarC/>
-  <main>
     <section id="about">
             <div class="home">
            
@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col landing-text text-light" style="padding-top: 19rem; ">
                 <h1>WAR ON THE TURF ,  SPLITTING THE PATHS</h1>
-                <button class="btn btn-dark">PROCEED</button>
+                <button class="btn btn-dark"><a style="text-decoration: none; color: white;" href="#ourTeam">PROCEED</a></button>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
       </section>
     </main>
 
-    <div>
+    <div id="ourTeam">
 
     <PlayerCards/>
 
@@ -38,7 +38,6 @@
 import NavbarC from '@/components/NavbarC.vue';
 import PlayerCards from '@/components/PlayerCards.vue';
 import TeamSlection from '@/components/TeamSlection.vue';
-
 // import PlayersC from '@/components/PlayersC.vue';
 
 export default {
@@ -51,9 +50,8 @@ export default {
 
 <style>
 main {
-  
   min-height: 100vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)), url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png) ;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)),url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
