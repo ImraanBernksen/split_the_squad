@@ -414,14 +414,14 @@
             </div>
             <div class="Stats"></div>
             <div class="leftCol">
-              <p>90 PAC</p>
-              <p>88 DRI</p>
-              <p>90 SHO</p>
+              <p>82 PAC</p>
+              <p>65 DRI</p>
+              <p>80 SHO</p>
             </div>
             <div class="rightCol">
-              <p>79 DEF</p>
-              <p>88 PAS</p>
-              <p>84 PHY</p>
+              <p>29 DEF</p>
+              <p>68 PAS</p>
+              <p>75 PHY</p>
             </div>
           </div>
         </div>
