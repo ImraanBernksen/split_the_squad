@@ -398,7 +398,7 @@
               <img  class="playerimg" src="https://i.postimg.cc/ryjmXNCf/My-project-1-4-1.png" style="" height="230px"/>
             </span>
             <span class="TeamLogo">
-              <p class="rating">69</p>
+              <p class="rating">89</p>
               <p class="position">ST</p>
               <p class="flag">
                 <img src="https://i.postimg.cc/QdH2XwHx/27118.jpg" height="28px" width="50px" />
@@ -414,14 +414,14 @@
             </div>
             <div class="Stats"></div>
             <div class="leftCol">
-              <p>82 PAC</p>
-              <p>65 DRI</p>
-              <p>80 SHO</p>
+              <p>90 PAC</p>
+              <p>88 DRI</p>
+              <p>90 SHO</p>
             </div>
             <div class="rightCol">
-              <p>29 DEF</p>
-              <p>68 PAS</p>
-              <p>75 PHY</p>
+              <p>79 DEF</p>
+              <p>88 PAS</p>
+              <p>86 PHY</p>
             </div>
           </div>
         </div>
