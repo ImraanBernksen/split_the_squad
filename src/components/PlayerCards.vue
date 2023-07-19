@@ -433,7 +433,7 @@
                   <div class="Stats"></div>
                   <div class="leftCol">
                     <p>90 PAC</p>
-                    <p>88 DRI</p>
+                    <p>89 DRI</p>
                     <p>88 SHO</p>
                   </div>
                   <div class="rightCol">
