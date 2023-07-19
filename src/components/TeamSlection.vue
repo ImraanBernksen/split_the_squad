@@ -4,7 +4,7 @@
       <div class="home">
         <div class="home container d-flex align-items-center justify-content-center">
           <div class="row">
-            <div class="col landing-text text-dark m-auto text-center" style="padding-top: 5rem; ">
+            <div class="col landing-text text-dark m-auto text-center" style="padding-top: 4rem;">
               <div>
                 <h2 class="text-center text-white" id="random-title">
                   SQUAD RANDOMIZER
@@ -143,7 +143,7 @@ export default {
 <style scoped>
 main {
   min-height: 100vh;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)),url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)), url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

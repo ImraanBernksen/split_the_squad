@@ -43,11 +43,7 @@ nav {
   color: #000000;
 }
 
-;
-
 .navbar-toggler {
   border-color: rgb(0, 0, 0);
 }
-
-;
 </style>
