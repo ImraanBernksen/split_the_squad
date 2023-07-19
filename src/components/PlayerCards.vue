@@ -420,7 +420,7 @@
             </div>
             <div class="rightCol">
               <p>79 DEF</p>
-              <p>88 PAS</p>
+              <p>86 PAS</p>
               <p>86 PHY</p>
             </div>
           </div>
