@@ -7,16 +7,16 @@
           <div class="home container d-flex align-items-center justify-content-center">
             <div class="row">
               <div class="col landing-text text-light" style="padding-top: 19rem; ">
-                <h1>WAR ON THE TURF , SPLITTING THE PATHS</h1>
+                <h1>WAR ON THE TURF <span class="comma">,</span> SPLITTING THE PATHS</h1>
                 <button class="btn btn-dark"><a style="text-decoration: none; color: white;"
-                    href="#ourTeam">PROCEED</a></button>
+                    href="#cardsPage">PROCEED</a></button>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <div id="ourTeam">
+    <div>
       <PlayerCards />
     </div>
     <div>
@@ -32,7 +32,9 @@ import TeamSlection from '@/components/TeamSlection.vue';
 export default {
   name: 'HomeView',
   components: {
-    NavbarC, PlayerCards, TeamSlection
+    NavbarC,
+  PlayerCards,
+    TeamSlection
   }
 }
 </script>
@@ -45,5 +47,11 @@ main {
   background-size: cover;
   background-position: center;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .comma {
+    display: none;
+  }
 }
 </style>

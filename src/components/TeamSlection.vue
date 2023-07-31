@@ -11,11 +11,10 @@
                 </h2>
                 <div class="container d-flex justify-content-center p-3">
                   <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6">
                       <input type="text" v-model="playerName" placeholder="Enter Player Name" />
                     </div>
-                    <br />
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 d-none">
+                    <div class="col-12 col-md-6">
                       <input type="text" v-model="playerImage" placeholder="Enter player image URL" />
                     </div>
                   </div>
@@ -40,7 +39,7 @@
                   </ul>
                 </div>
                 <h3 class="text-center mt-1">Players Available:</h3>
-                <ol id="playersList">
+                <ol id="playersList" class="d-flex flex-wrap justify-content-center">
                   <li v-for="player in players" :key="player.name">
                     {{ player.name }}
                   </li>
@@ -143,7 +142,8 @@ export default {
 <style scoped>
 main {
   min-height: 100vh;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)), url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)),
+    url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -181,15 +181,18 @@ input[type="text"] {
 }
 
 .home {
-  margin-left: 4rem
+  margin-left: 4rem;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
+  .home {
+    margin-left: 0;
+  }
+
   #playersList {
     display: block;
     margin: auto;
     text-align: center;
-
   }
 
   .row {

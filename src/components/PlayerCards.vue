@@ -1,9 +1,5 @@
 <template>
-  <div class="cards-page">
-
-    <div>
-
-    </div>
+  <div id="cardsPage">
 
     <div class="container-fluid">
       <div class="row">
@@ -473,7 +469,7 @@ export default {
 
 
 
-.cards-page {
+#cardsPage {
   background-color: rgb(0, 0, 0);
 }
 
@@ -710,5 +706,5 @@ p {
 .BoxWrapper:hover {
   box-shadow: white 0px 4px 2px 1px;
   transition: 0.4s;
-
-}</style>
+}
+</style>
