@@ -142,8 +142,7 @@ export default {
 <style scoped>
 main {
   min-height: 100vh;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)),
-    url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -180,9 +179,6 @@ input[type="text"] {
   font-weight: 900;
 }
 
-.home {
-  margin-left: 4rem;
-}
 
 @media screen and (max-width: 768px) {
   .home {

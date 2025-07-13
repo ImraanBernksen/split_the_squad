@@ -1,4 +1,6 @@
 <template>
+
+  
   <div id="cardsPage">
 
     <div class="container-fluid">
@@ -19,7 +21,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg-tim" src="https://i.postimg.cc/qRvvfsbr/My-project-1.png" height="210px" />
+                    <img class="playerimg" src="https://i.postimg.cc/qRvvfsbr/My-project-1.png"/>
                   </span>
                   <span class="TeamLogo">
                     <p class="rating">87</p>
@@ -408,11 +410,11 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Brandon">
-                    <img class="playerimg" src="https://i.postimg.cc/ryjmXNCf/My-project-1-4-1.png" style=""
+                    <img class="playerimg" src="https://i.postimg.cc/15P2mfP6/pp-img.jpg" style=""
                       height="230px" />
                   </span>
                   <span class="TeamLogo">
-                    <p class="rating">89</p>
+                    <p class="rating">90</p>
                     <p class="position">ST</p>
                     <p class="flag">
                       <img src="https://i.postimg.cc/QdH2XwHx/27118.jpg" height="28px" width="50px" />
@@ -434,8 +436,8 @@
                   </div>
                   <div class="rightCol">
                     <p>80 DEF</p>
-                    <p>86 PAS</p>
-                    <p>84 PHY</p>
+                    <p>87 PAS</p>
+                    <p>86 PHY</p>
                   </div>
                 </div>
               </div>
@@ -448,6 +450,8 @@
 
   </div>
 </template>
+
+
 
 <script>
 export default {
@@ -473,14 +477,16 @@ export default {
   background-color: rgb(0, 0, 0);
 }
 
-.playerimg {
-  margin-left: 80px !important;
-}
-
+.playerimg,
 .playerimg-tim {
-  margin-left: 90px !important;
+  width: 140px;
+  height: 230px;
+  object-fit: contain; /* ensures the full image fits inside without cropping */
+  display: block;
+  margin: 0 auto;
   margin-top: 15px;
 }
+
 
 .Main {
   padding: 50px;

@@ -42,7 +42,7 @@ export default {
 <style>
 main {
   min-height: 100vh;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1)), url(https://i.postimg.cc/FzLx4vxt/fifa-background-tqq9pxlhzeue8u6w.png);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.039), rgba(0, 0, 0, 1));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
