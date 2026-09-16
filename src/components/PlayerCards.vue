@@ -21,7 +21,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/qRvvfsbr/My-project-1.png"/>
+                    <img class="playerimg" src="https://i.postimg.cc/K8WXG47h/1679909344409.jpg"/>
                   </span>
                   <span class="TeamLogo">
                     <p class="rating">87</p>
@@ -72,7 +72,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Brandon">
-                    <img class="playerimg" src="https://i.postimg.cc/N003pxyS/brandon.png" style="" height="230px" />
+                    <img class="playerimg" src="https://i.postimg.cc/52rc4j5d/1773317617104.png" style="" height="230px" />
                   </span>
                   <span class="TeamLogo">
                     <p class="rating">86</p>
@@ -119,7 +119,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Brandon">
-                    <img class="playerimg" src="https://i.postimg.cc/FKfbccYb/My-project-1-3-1.png" style=""
+                    <img class="playerimg" src="https://i.postimg.cc/jS1VxC6V/1774159875704.png" style=""
                       height="230px" />
                   </span>
                   <span class="TeamLogo">
@@ -168,7 +168,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/dQyZTxdD/My-project-4-1-2.png" style=""
+                    <img class="playerimg" src="https://i.postimg.cc/Cx2yhdG6/1741017736636.jpg" style=""
                       height="230px" />
                   </span>
                   <span class="TeamLogo">
@@ -216,7 +216,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/ZnTDQ34B/My-project-7.png" style="" height="230px" />
+                    <img class="playerimg" src="https://i.postimg.cc/XYPMjXfT/1776063555060.png" style="" height="230px" />
                   </span>
                   <span class="TeamLogo">
                     <p class="rating">89</p>
@@ -264,7 +264,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/SNYDXNgM/My-project-10.png" height="230px" />
+                    <img class="playerimg" src="https://i.postimg.cc/8zY8psR9/1774600729621.png" height="230px" />
                   </span>
                   <span class="TeamLogo">
                     <p class="rating" style="color: black;">90</p>
@@ -312,7 +312,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/XqcdWvSB/Umayr-transparent.png" style=""
+                    <img class="playerimg" src="https://i.postimg.cc/52rc4jBR/1679915934333.jpg" style=""
                       height="230px" />
                   </span>
                   <span class="TeamLogo">
@@ -362,7 +362,7 @@
                 <div class=WrapperRightCorner></div>
                 <div class=TopSection>
                   <span class="Cardimage-Tim">
-                    <img class="playerimg" src="https://i.postimg.cc/qqBWczLp/My-project-10.png" style=""
+                    <img class="playerimg" src="https://i.postimg.cc/HLb6qLBZ/account-icon-user-icon-vector-graphics-292645-552.avif" style=""
                       height="230px" />
                   </span>
                   <span class="TeamLogo">
