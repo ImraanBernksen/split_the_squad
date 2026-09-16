@@ -1,5 +1,7 @@
+<!--  --  --   --       PLAYER CARDS      
+/*
 <template>
-
+*/
   
   <div id="cardsPage">
 
